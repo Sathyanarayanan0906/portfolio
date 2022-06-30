@@ -1,0 +1,83 @@
+.about{
+  background: #543f64c2;
+}
+.component__about{
+  padding: 150px 0px;
+}
+h1.about__heading{
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: start;
+  font-family: Montserrat,sans-serif;
+  font-size: 50px;
+}
+button.about.btn.pointer {
+  text-transform: capitalize;
+  width: 195px;
+  height: 55px;
+  font-size: 18px;
+  transition: .4s ease;
+}
+.about__button{
+  padding: 20px 0px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px){
+  .p__color{
+      font-size: 15px;
+      
+  }
+}
+@media only screen and (max-width: 425px){
+button.about.btn.pointer {
+  text-transform: capitalize;
+  width: 165px;
+  height: 50px;
+  font-size: 13px;
+  transition: .4s ease;
+}
+}
+.row{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.col__2 {
+  max-width: 50%;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  margin:50px;
+}
+.p__color {
+  color: rgba(198,201,216,.75);
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Poppins,sans-serif;
+  margin-bottom: 15px;
+}
+button.btn {
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid #f9004d;
+  background-color: #f9004d;
+  color: #fff!important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: .4s all ease;
+  height: 50px;
+  width: 180px;
+  margin: 0px 10px;
+}
+
+button.btn:hover{
+  background-color: #f5eff1;
+  color:#f9004d!important;
+}
